@@ -49,7 +49,7 @@ class HomeFragment : Fragment() {
 
             }
             like.setOnClickListener {
-                findNavController().navigate(R.id.infoFragment, bundleOf("like" to "like"))
+                findNavController().navigate(R.id.infoFragment, bundleOf("key" to "like"))
             }
         }
 
